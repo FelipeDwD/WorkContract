@@ -11,6 +11,10 @@ namespace WorkerContract.Entities
 
         public int Hours { get; set; }
 
+        public HourContract()
+        {
+        }
+
         public HourContract(DateTime date, double valuePerHour, int hours)
         {
             Date = date;

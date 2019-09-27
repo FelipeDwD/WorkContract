@@ -4,10 +4,10 @@ using System.Text;
 
 namespace WorkerContract.Entities.Enum
 {
-    enum WorkLevel
+    enum WorkLevel : int
     {
-        JUNIOR,
-        MID_LEVEL,
-        SENIOR
+        Junior,
+        Mid_Level,
+        Senior
     }
 }
