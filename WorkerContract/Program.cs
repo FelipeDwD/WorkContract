@@ -6,8 +6,7 @@ namespace WorkerContract
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Vai dar certo");
-            Console.WriteLine("acrescentado pelo principal");
+            Console.WriteLine("deletado");
         }
     }
 }
