@@ -7,7 +7,7 @@ namespace WorkerContract.Entities.Enum
     enum WorkLevel : int
     {
         Junior,
-        Mid_Level,
+        MidLevel,
         Senior
     }
 }

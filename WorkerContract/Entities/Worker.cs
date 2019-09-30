@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using WorkerContract.Entities.Enum;
+using System.Globalization;
 
 namespace WorkerContract.Entities
 {
@@ -32,10 +33,10 @@ namespace WorkerContract.Entities
 
         public void RemoveContract(HourContract contract)
         {
-            Contracts.remove(contract);
+            Contracts.Remove(contract);
         }
 
-        public double Income(int year, int month)
+        public double Income(int month, int year)
         {
             double sum = BaseSalary;
 

@@ -5,17 +5,18 @@ using System.Text;
 namespace WorkerContract.Entities
 {
     class HourContract
-    {
+    {     
+
         public DateTime Date { get; set; }
         public double ValuePerHour { get; set; }
 
-        public int Hours { get; set; }
+        public double Hours { get; set; }
 
         public HourContract()
         {
         }
 
-        public HourContract(DateTime date, double valuePerHour, int hours)
+        public HourContract(DateTime date, double valuePerHour, double hours)
         {
             Date = date;
             ValuePerHour = valuePerHour;
